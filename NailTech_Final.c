@@ -135,7 +135,7 @@ void paintNail()
 		}
 }
 
-// Moves brush to starting y position and x position of brush slot
+// Moves brush to starting y position and x position to return the brush to its slot in the brush holder
 void returnBrush(int & xPosition) //uses x position from pickBrush function
 {
 	moveY(-distYNail);
@@ -145,7 +145,7 @@ void returnBrush(int & xPosition) //uses x position from pickBrush function
 	motor[motorB] = 0;
 }
 
-// Brings brush down, disconnects magnet, moves back to starting y
+// Brings brush down, disconnects brush, moves back to starting y position
 void moveGripper()
 {
 	if(SensorValue[S1] == 1)
