@@ -3,9 +3,9 @@ NailTech is a Lego Robot prototype designed to improve users' nail painting expe
 
 ### Hardware Layout 
 NailTech uses 3 motors and 2 sensors as described below: 
-- MotorA: moves vertical rack and pinion
-- MotorB: moves horizontal rack and pinion
-- MotorD: controls "gripper" mechanism to return brushes
+- Motor A: moves vertical rack and pinion
+- Motor B: moves horizontal rack and pinion
+- Motor D: controls "gripper" mechanism to return brushes
 - Colour sensor: detects nail polish colour to select
 - Touch sensor: acts as a stopping mechanism
 
